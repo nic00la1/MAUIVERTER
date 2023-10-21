@@ -5,13 +5,7 @@
              Title="MenuView"
              NavigationPage.HasNavigationBar="False">
 
-    <ContentPage.Resources>
-        <Color x:Key="AppColor1">#10002B</Color>
-        <Color x:Key="AppColor2">#240046</Color>
-        <Color x:Key="AppColor3">#3C096C</Color>
-        <Color x:Key="AppColor4">#5A189A</Color>
-        <Color x:Key="TextColor">White</Color>
-    </ContentPage.Resources>
+   
 
     <Grid
         ColumnDefinitions=".33*, .33*, .33*"
