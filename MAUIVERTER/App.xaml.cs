@@ -1,4 +1,5 @@
 ﻿using MAUIVERTER.MVVM.Views;
+using Microsoft.Maui.Controls;
 
 namespace MAUIVERTER
 {
@@ -8,7 +9,7 @@ namespace MAUIVERTER
         {
             InitializeComponent();
 
-            MainPage = new ConverterView();
+            MainPage = new NavigationPage(new MenuView());
         }
     }
 }
